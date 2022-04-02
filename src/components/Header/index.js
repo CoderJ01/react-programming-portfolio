@@ -1,10 +1,12 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 function Header() {
   return (
-    <section id="header">
+    <header>
       <h1>Joshua</h1>
-    </section>
+        <Navigation></Navigation>
+    </header>
   );
 }
 
