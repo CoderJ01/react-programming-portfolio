@@ -41,6 +41,8 @@ header nav ul a {
   margin-top: 50px;
 }
 
+/* ABOUT PAGE */
+
 #about-me {
   border: 2px solid white;
   width: 1150px;
@@ -60,4 +62,66 @@ header nav ul a {
 
 #about-me p {
   margin-top: 10px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+  border: 2px solid white;
+  margin-left: 106px;
+  width: 1000px;
+}
+
+.pair-wrapper {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.application {
+  border: 2px solid blue;
+  margin-top: 20px;
+  width: 40%;
+  height: 400px;
+  font-size: 17px;
+}
+
+.application text {
+  text-transform: none;
+}
+
+.application a {
+  font-size: 25px;
+  background-color: rgb(19, 38, 47);
+  position: absolute;
+  text-decoration: none;
+}
+
+.application a:hover {
+  color: rgb(88, 62, 35);
+  background-color: rgb(176, 160, 132)
+}
+
+.main-display {
+  height: 375px;
+  width: 398px;
+}
+
+.gitHub {
+  position: absolute;
+  margin-left: -35px;
+  height: 32px;
+  width: 32px;
+}
+
+.tech {
+  background-color: rgb(176, 160, 132)
+}
+
+.gitHub:hover {
+  opacity: 0.5;
+}
+
+.gitHub:active {
+
 }

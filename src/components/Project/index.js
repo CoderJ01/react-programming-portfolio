@@ -1,21 +1,59 @@
 import React from 'react';
-import avatar from '../../assets/images/avatar.png';
+// import avatar from '../../assets/images/avatar.png';
+import CSS from '../../assets/images/L02_Advance-CSS_first-coding-portfolio.JPG';
+import webAPI from '../../assets/images/L04_Web-APIs_code-quiz.JPG';
+import thirdAPI from '../../assets/images/L05_Third-Party-APIs_daily-planner.JPG';
+import serverAPI from '../../assets/images/L06_Server-Side-APIs_weather-dashboard.JPG';
+import express from '../../assets/images/L11_Express-js_note-taker-for-business.JPG';
+import mvc from '../../assets/images/L14_Model-Views-Controllers_tech-blog.JPG';
+import githubIcon from '../../assets/images/GitHub-Mark/PNG/GitHub-Mark-32px.png';
+
 
 function Project() {
   return (
     <section className="project">
-        <div id="about-me">
-            <h2>About</h2>
-            <img src={avatar} alt="" />
-            <p>
-                Hello World! My name is Joshua Jones. As of Saturday April 2, 2022, I am currently in the 
-                process of learning how to program via a coding bootcamp. So far, I have learned the skills needed to
-                become a competent full-stack developer. For the front-end, I've learned HTML, CSS, and JavaScript; and 
-                have used three types of APIs (Application Program Interfaces) - web storage, third-party, and server-side. 
-                For the back-end, I learned the fundamentals of Node.js, Object-Oriented programming, Express.js, SQL, 
-                Object-Relational Mapping (ORM), and Model-View-Controllers (MVC). To navigate to the webpages of 
-                my websites, click on the images under "Portfolio".
-            </p>
+        {/* ABOUT section */}
+        {/* stored in store.txt (gitignore) */}
+
+        {/* PORTFOLIO section */}
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+            <div className="pair-wrapper">
+                <div className="application">
+                    <a href="https://coderj01.github.io/coding-portfolio-website/" rel="noreferrer" target="_blank">First Portfolio</a>
+                    <img className="main-display" src={CSS} alt="" />
+                    <img className="gitHub" src={githubIcon} alt="" />
+                </div>
+                <div className="application">
+                    <a href="https://coderj01.github.io/javascript-code-quiz/" rel="noreferrer" target="_blank">Code Quiz</a>
+                    <img className="main-display" src={webAPI} alt="" />
+                    <img className="gitHub" src={githubIcon} alt="" onClick={window.location.href='https://coderj01.github.io/javascript-code-quiz/'}/>
+                </div>
+            </div>
+            <div className="pair-wrapper">
+                <div className="application">
+                    <a href="https://coderj01.github.io/daily-planner/" rel="noreferrer" target="_blank">Daily Planner</a>
+                    <img className="main-display" src={thirdAPI} alt="" />
+                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/daily-planner/'"/>
+                </div>
+                <div className="application">
+                    <a href="https://coderj01.github.io/weather-dashboard-2/" rel="noreferrer" target="_blank">Weather Dashboard</a>
+                    <img className="main-display" src={serverAPI} alt="" />
+                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/weather-dashboard-2/'"/>
+                </div>
+            </div>
+            <div className="pair-wrapper">
+                <div className="application">
+                    <a href="https://note-taker-for-business.herokuapp.com/notes" rel="noreferrer" target="_blank">Note Taker for Business</a>
+                    <img className="main-display" src={express} alt="" />
+                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://note-taker-for-business.herokuapp.com/notes'"/>
+                </div>
+                <div className="application">
+                    <a href="https://c-tech-blog.herokuapp.com" rel="noreferrer" target="_blank">Tech Blog</a>
+                    <img className="main-display" src={mvc} alt="" />
+                    <img className="gitHub tech" src={githubIcon} alt="" onclick="window.location.href='https://c-tech-blog.herokuapp.com/'"/>
+                </div>
+            </div>
         </div>
     </section>
   );
