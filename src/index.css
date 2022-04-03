@@ -125,3 +125,42 @@ header nav ul a {
 .gitHub:active {
   opacity: 1.0;
 }
+
+/* CONTACT */
+
+#contact {
+  border: 2px solid white;
+  margin-left: 106px;
+  width: 600px;
+}
+
+#contact-form {
+  margin-top: 12px;
+}
+
+#contact-form label {
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+#contact-form input {
+  padding: 8px;
+  width: 550px;
+}
+
+#contact-form textarea {
+  width: 563px;
+}
+
+#contact p {
+  font-size: 18px;
+}
+
+#contact button {
+  font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
+  font-size: 20px;
+  background-color: rgb(19, 38, 47);
+  border: 1px solid  rgb(19, 38, 47);
+  padding: 10px;
+  width: 125px;
+}
