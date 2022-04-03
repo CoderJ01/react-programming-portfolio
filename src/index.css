@@ -1,10 +1,12 @@
 * {
   margin: 0;
+  color: rgb(255, 255, 255);
 }
 
 body {
   margin: 0;
   font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
+  background-color: rgb(88, 62, 35);
 }
 
 code {
@@ -30,8 +32,32 @@ header nav ul {
 }
 
 header nav ul a {
-  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 25px;
   margin-left: 75px;
+}
+
+.project {
+  margin-top: 50px;
+}
+
+#about-me {
+  border: 2px solid white;
+  width: 1150px;
+  margin-left: 106px;
+}
+
+.project h2 {
+  font-size: 30px;
+}
+
+#about-me img {
+  height: 90px;
+  width: 90px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#about-me p {
+  margin-top: 10px;
 }
