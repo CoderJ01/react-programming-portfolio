@@ -27,31 +27,31 @@ function Project() {
                 <div className="application">
                     <a href="https://coderj01.github.io/javascript-code-quiz/" rel="noreferrer" target="_blank">Code Quiz</a>
                     <img className="main-display" src={webAPI} alt="" />
-                    <img className="gitHub" src={githubIcon} alt="" onClick={window.location.href='https://coderj01.github.io/javascript-code-quiz/'}/>
+                    {/* <img className="gitHub" src={githubIcon} alt="" onClick={window.location.href='https://coderj01.github.io/javascript-code-quiz/'}/> */}
                 </div>
             </div>
             <div className="pair-wrapper">
                 <div className="application">
                     <a href="https://coderj01.github.io/daily-planner/" rel="noreferrer" target="_blank">Daily Planner</a>
                     <img className="main-display" src={thirdAPI} alt="" />
-                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/daily-planner/'"/>
+                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/daily-planner/'"/> */}
                 </div>
                 <div className="application">
                     <a href="https://coderj01.github.io/weather-dashboard-2/" rel="noreferrer" target="_blank">Weather Dashboard</a>
                     <img className="main-display" src={serverAPI} alt="" />
-                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/weather-dashboard-2/'"/>
+                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/weather-dashboard-2/'"/> */}
                 </div>
             </div>
             <div className="pair-wrapper">
                 <div className="application">
                     <a href="https://note-taker-for-business.herokuapp.com/notes" rel="noreferrer" target="_blank">Note Taker for Business</a>
                     <img className="main-display" src={express} alt="" />
-                    <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://note-taker-for-business.herokuapp.com/notes'"/>
+                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://note-taker-for-business.herokuapp.com/notes'"/> */}
                 </div>
                 <div className="application">
                     <a href="https://c-tech-blog.herokuapp.com" rel="noreferrer" target="_blank">Tech Blog</a>
                     <img className="main-display" src={mvc} alt="" />
-                    <img className="gitHub tech" src={githubIcon} alt="" onclick="window.location.href='https://c-tech-blog.herokuapp.com/'"/>
+                    {/* <img className="gitHub tech" src={githubIcon} alt="" onclick="window.location.href='https://c-tech-blog.herokuapp.com/'"/> */}
                 </div>
             </div>
         </div>

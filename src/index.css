@@ -73,13 +73,11 @@ header nav ul a {
 }
 
 .pair-wrapper {
-  border: 2px solid red;
   display: flex;
   justify-content: space-around;
 }
 
 .application {
-  border: 2px solid blue;
   margin-top: 20px;
   width: 40%;
   height: 400px;
@@ -95,14 +93,17 @@ header nav ul a {
   background-color: rgb(19, 38, 47);
   position: absolute;
   text-decoration: none;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .application a:hover {
   color: rgb(88, 62, 35);
-  background-color: rgb(176, 160, 132)
+  background-color: rgb(176, 160, 132);
 }
 
 .main-display {
+  border: 5px solid rgb(176, 160, 132);
   height: 375px;
   width: 398px;
 }
