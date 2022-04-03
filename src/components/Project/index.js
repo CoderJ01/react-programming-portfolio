@@ -22,36 +22,48 @@ function Project() {
                 <div className="application">
                     <a href="https://coderj01.github.io/coding-portfolio-website/" rel="noreferrer" target="_blank">First Portfolio</a>
                     <img className="main-display" src={CSS} alt="" />
-                    <img className="gitHub" src={githubIcon} alt="" />
+                    <a href="https://github.com/CoderJ01/coding-portfolio-website" rel="noreferrer" target="_blank">
+                        <img className="gitHub" src={githubIcon} alt=""/>
+                    </a>
                 </div>
                 <div className="application">
                     <a href="https://coderj01.github.io/javascript-code-quiz/" rel="noreferrer" target="_blank">Code Quiz</a>
                     <img className="main-display" src={webAPI} alt="" />
-                    {/* <img className="gitHub" src={githubIcon} alt="" onClick={window.location.href='https://coderj01.github.io/javascript-code-quiz/'}/> */}
+                    <a href="https://github.com/CoderJ01/javascript-code-quiz" rel="noreferrer" target="_blank">
+                        <img className="gitHub" src={githubIcon} alt=""/>
+                    </a>
                 </div>
             </div>
             <div className="pair-wrapper">
                 <div className="application">
                     <a href="https://coderj01.github.io/daily-planner/" rel="noreferrer" target="_blank">Daily Planner</a>
                     <img className="main-display" src={thirdAPI} alt="" />
-                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/daily-planner/'"/> */}
+                    <a href="https://github.com/CoderJ01/daily-planner" rel="noreferrer" target="_blank">
+                        <img className="gitHub" src={githubIcon} alt=""/>
+                    </a>
                 </div>
                 <div className="application">
                     <a href="https://coderj01.github.io/weather-dashboard-2/" rel="noreferrer" target="_blank">Weather Dashboard</a>
                     <img className="main-display" src={serverAPI} alt="" />
-                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://coderj01.github.io/weather-dashboard-2/'"/> */}
+                    <a href="https://github.com/CoderJ01/weather-dashboard-2" rel="noreferrer" target="_blank">
+                        <img className="gitHub" src={githubIcon} alt=""/>
+                    </a>
                 </div>
             </div>
             <div className="pair-wrapper">
                 <div className="application">
                     <a href="https://note-taker-for-business.herokuapp.com/notes" rel="noreferrer" target="_blank">Note Taker for Business</a>
                     <img className="main-display" src={express} alt="" />
-                    {/* <img className="gitHub" src={githubIcon} alt="" onclick="window.location.href='https://note-taker-for-business.herokuapp.com/notes'"/> */}
+                    <a href="https://github.com/CoderJ01/note-taker-for-business" rel="noreferrer" target="_blank">
+                        <img className="gitHub" src={githubIcon} alt=""/>
+                    </a>
                 </div>
                 <div className="application">
                     <a href="https://c-tech-blog.herokuapp.com" rel="noreferrer" target="_blank">Tech Blog</a>
                     <img className="main-display" src={mvc} alt="" />
-                    {/* <img className="gitHub tech" src={githubIcon} alt="" onclick="window.location.href='https://c-tech-blog.herokuapp.com/'"/> */}
+                    <a href="https://github.com/CoderJ01/tech-blog-2" rel="noreferrer" target="_blank">
+                        <img className="gitHub tech" src={githubIcon} alt=""/>
+                    </a>
                 </div>
             </div>
         </div>

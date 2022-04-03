@@ -110,7 +110,8 @@ header nav ul a {
 
 .gitHub {
   position: absolute;
-  margin-left: -35px;
+  margin-left: 365px;
+  margin-top: -390px;
   height: 32px;
   width: 32px;
 }
@@ -124,5 +125,5 @@ header nav ul a {
 }
 
 .gitHub:active {
-
+  opacity: 0;
 }
