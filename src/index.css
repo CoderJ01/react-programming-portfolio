@@ -44,7 +44,6 @@ header nav ul a {
 /* ABOUT PAGE */
 
 #about-me {
-  border: 2px solid white;
   width: 1150px;
   margin-left: 106px;
 }
@@ -67,7 +66,6 @@ header nav ul a {
 /* PORTFOLIO */
 
 #portfolio {
-  border: 2px solid white;
   margin-left: 106px;
   width: 1000px;
 }
@@ -125,5 +123,5 @@ header nav ul a {
 }
 
 .gitHub:active {
-  opacity: 0;
+  opacity: 1.0;
 }
