@@ -8,6 +8,7 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
+        
         if (e.target.name === 'email') {
             // check if email is valid
             const isValid = validateEmail(e.target.value);
@@ -50,6 +51,11 @@ function Contact() {
                     <label htmlFor="email">Email address:</label><br/>
                     <input type="email" defaultValue={email} onChange={handleChange} name="email" />
                 </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}  
                 <br/>
                 <div>
                     <label htmlFor="message">Message:</label><br/>
@@ -58,7 +64,7 @@ function Contact() {
                 <br/>
             </form>
             <p>Message is required.</p><br/>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button><br/>
         </div>
     );
   }
