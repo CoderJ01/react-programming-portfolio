@@ -164,3 +164,9 @@ header nav ul a {
   padding: 10px;
   width: 125px;
 }
+
+#contact-form input, 
+#contact-form textarea {
+  font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
+  color: rgb(0, 0, 0);
+} 
