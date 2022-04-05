@@ -184,3 +184,23 @@ header nav ul a {
 #resume {
   margin-left: 106px;
 }
+
+/* FOOTER */
+footer {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.linked {
+  width: 35px;
+  height: 35px;
+}
+
+.facebook {
+  width: 32px;
+  height: 32px;
+}

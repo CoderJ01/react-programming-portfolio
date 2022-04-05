@@ -1,5 +1,5 @@
 import React from 'react';
-import CSS from '../../../assets/images/L02_Advance-CSS_first-coding-portfolio.JPG';
+import CSS from '../../../assets/images/L02_Advance-CSS_first-coding-portfolio.JPG'
 import webAPI from '../../../assets/images/L04_Web-APIs_code-quiz.JPG';
 import thirdAPI from '../../../assets/images/L05_Third-Party-APIs_daily-planner.JPG';
 import serverAPI from '../../../assets/images/L06_Server-Side-APIs_weather-dashboard.JPG';
