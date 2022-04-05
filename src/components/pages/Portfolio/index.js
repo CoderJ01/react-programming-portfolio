@@ -6,6 +6,7 @@ import serverAPI from '../../../assets/images/L06_Server-Side-APIs_weather-dashb
 import express from '../../../assets/images/L11_Express-js_note-taker-for-business.JPG';
 import mvc from '../../../assets/images/L14_Model-Views-Controllers_tech-blog.JPG';
 import githubIcon from '../../../assets/images/GitHub-Mark/PNG/GitHub-Mark-32px.png';
+import Footer from '../../Footer/index.js';
 
 function Portfolio() {
     return (

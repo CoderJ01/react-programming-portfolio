@@ -6,7 +6,7 @@ function Project() {
  
   return (
     <div>
-     <Header></Header>
+     <Header></Header><br></br>
      <Footer></Footer>
     </div>
   );
