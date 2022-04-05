@@ -37,6 +37,10 @@ header nav ul a {
   margin-left: 75px;
 }
 
+.nav-link-active {
+  color: rgb(19, 38, 47);
+}
+
 .project {
   margin-top: 50px;
 }
@@ -192,7 +196,10 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgb(176, 160, 132);
+}
+
+.git {
+  margin-right: 10px;
 }
 
 .linked {
@@ -201,6 +208,7 @@ footer {
 }
 
 .facebook {
+  margin-left: 10px;
   width: 32px;
   height: 32px;
 }
