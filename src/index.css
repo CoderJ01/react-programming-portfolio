@@ -191,7 +191,8 @@ footer {
   justify-content: center;
   position: absolute;
   bottom: 0;
-  width: 99%;
+  width: 100%;
+  background-color: rgb(176, 160, 132);
 }
 
 .linked {
