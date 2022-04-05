@@ -15,7 +15,7 @@ function Contact() {
             console.log(isValid);
             // isValid conditional statement
             if (!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('email is invalid.');
             } 
             else {
                 // sen error message if input is blank
@@ -26,7 +26,15 @@ function Contact() {
                     setErrorMessage('');
                 }
             }
-        }  
+        }
+        else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required`);
+            }
+            else {
+                setErrorMessage('');
+            }
+        }
         if (!errorMessage) {
             // update user input
             setFormState({ ...formState, [e.target.name]: e.target.value });
@@ -44,26 +52,26 @@ function Contact() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name" defaultValue={formState.name}>Name:</label><br/>
-                    <input type="text" defaultValue={name} onChange={handleChange} name="name" />
+                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <br/>
                 <div>
                     <label htmlFor="email">Email address:</label><br/>
-                    <input type="email" defaultValue={email} onChange={handleChange} name="email" />
+                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}  
                 <br/>
                 <div>
                     <label htmlFor="message">Message:</label><br/>
-                    <textarea name="message" defaultValue={message} onChange={handleChange} rows="10" />
+                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="10" />
                 </div>
                 <br/>
             </form>
-            <p>Message is required.</p><br/>
+            {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+            )}  
+            <br/>
             <button type="submit">Submit</button><br/>
         </div>
     );

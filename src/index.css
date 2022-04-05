@@ -212,3 +212,15 @@ footer {
   width: 32px;
   height: 32px;
 }
+
+.git:hover, 
+.linked:hover, 
+.facebook:hover {
+  opacity: 0.5;
+}
+
+.git:active, 
+.linked:active, 
+.facebook:active {
+  opacity: 1.0;
+}
