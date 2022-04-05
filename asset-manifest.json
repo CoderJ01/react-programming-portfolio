@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-programming-portfolio/static/css/main.ae38e964.css",
+    "main.js": "/react-programming-portfolio/static/js/main.c858022f.js",
+    "static/js/787.137aa76a.chunk.js": "/react-programming-portfolio/static/js/787.137aa76a.chunk.js",
+    "static/media/resume.jpg": "/react-programming-portfolio/static/media/resume.2c7f05b02ab6ad4068e5.jpg",
+    "static/media/L14_Model-Views-Controllers_tech-blog.JPG": "/react-programming-portfolio/static/media/L14_Model-Views-Controllers_tech-blog.4e44f656d61fab31de57.JPG",
+    "static/media/L02_Advance-CSS_first-coding-portfolio.JPG": "/react-programming-portfolio/static/media/L02_Advance-CSS_first-coding-portfolio.1e047f2ad0d345e3f371.JPG",
+    "static/media/L06_Server-Side-APIs_weather-dashboard.JPG": "/react-programming-portfolio/static/media/L06_Server-Side-APIs_weather-dashboard.46071bb8c874968a589e.JPG",
+    "static/media/avatar.png": "/react-programming-portfolio/static/media/avatar.86c2a97e95bf501b8d8a.png",
+    "static/media/L05_Third-Party-APIs_daily-planner.JPG": "/react-programming-portfolio/static/media/L05_Third-Party-APIs_daily-planner.ced42c2498eb8fc10118.JPG",
+    "static/media/L11_Express-js_note-taker-for-business.JPG": "/react-programming-portfolio/static/media/L11_Express-js_note-taker-for-business.bf5763e84c9ae45607a0.JPG",
+    "static/media/L04_Web-APIs_code-quiz.JPG": "/react-programming-portfolio/static/media/L04_Web-APIs_code-quiz.da6c1522519e566c8a6f.JPG",
+    "static/media/facebook.png": "/react-programming-portfolio/static/media/facebook.31e4cabcce02bc6ce2f3.png",
+    "index.html": "/react-programming-portfolio/index.html",
+    "main.ae38e964.css.map": "/react-programming-portfolio/static/css/main.ae38e964.css.map",
+    "main.c858022f.js.map": "/react-programming-portfolio/static/js/main.c858022f.js.map",
+    "787.137aa76a.chunk.js.map": "/react-programming-portfolio/static/js/787.137aa76a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae38e964.css",
+    "static/js/main.c858022f.js"
+  ]
+}
