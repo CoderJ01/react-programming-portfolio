@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Navigation(currentPage, handlePageChange) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav>
-        <ul>
+        <ul> 
             <li>
                 <a 
                     href="#about-me"
