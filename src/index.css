@@ -49,6 +49,7 @@ header nav ul a {
 
 #about-me {
   width: 1150px;
+  margin-bottom: 55px;
 }
 
 .project h2 {
@@ -176,6 +177,7 @@ header nav ul a {
 
 #resume {
   width: 300px;
+  margin-bottom: 35px;
 }
 
 #resume a {
@@ -193,9 +195,6 @@ header nav ul a {
 footer {
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .git {
