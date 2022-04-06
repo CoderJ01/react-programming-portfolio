@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-programming-portfolio/static/css/main.ae38e964.css",
+    "main.css": "/react-programming-portfolio/static/css/main.bf85c3e8.css",
     "main.js": "/react-programming-portfolio/static/js/main.c858022f.js",
     "static/js/787.137aa76a.chunk.js": "/react-programming-portfolio/static/js/787.137aa76a.chunk.js",
     "static/media/resume.jpg": "/react-programming-portfolio/static/media/resume.2c7f05b02ab6ad4068e5.jpg",
@@ -13,12 +13,12 @@
     "static/media/L04_Web-APIs_code-quiz.JPG": "/react-programming-portfolio/static/media/L04_Web-APIs_code-quiz.da6c1522519e566c8a6f.JPG",
     "static/media/facebook.png": "/react-programming-portfolio/static/media/facebook.31e4cabcce02bc6ce2f3.png",
     "index.html": "/react-programming-portfolio/index.html",
-    "main.ae38e964.css.map": "/react-programming-portfolio/static/css/main.ae38e964.css.map",
+    "main.bf85c3e8.css.map": "/react-programming-portfolio/static/css/main.bf85c3e8.css.map",
     "main.c858022f.js.map": "/react-programming-portfolio/static/js/main.c858022f.js.map",
     "787.137aa76a.chunk.js.map": "/react-programming-portfolio/static/js/787.137aa76a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae38e964.css",
+    "static/css/main.bf85c3e8.css",
     "static/js/main.c858022f.js"
   ]
 }
