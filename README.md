@@ -11,8 +11,6 @@ This site showcases six of my projects, including my first portfolio. However, u
 
 ## Packages Required
     * npx create-react-app photo-port
-    * npm install -D gh-pages
-    * npm run deploy
 
 ## Website Link
 https://programming-portfolio-react.herokuapp.com/
