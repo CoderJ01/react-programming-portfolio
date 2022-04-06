@@ -1,6 +1,7 @@
 import React from 'react';
 import avatar from '../../../assets/images/avatar.png';
 
+// description about myself
 function About() {
     return (
         <div id="about-me">

@@ -1,10 +1,12 @@
 import React from 'react';
 
+// set up navigation in header
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav>
         <ul> 
             <li>
+                {/* If About link is clicked, render About section */}
                 <a 
                     href="#about-me"
                     onClick={() => handlePageChange('About')}
@@ -13,6 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li>
+                {/* If Portfolio link is clicked, render Portfolio section */}
                 <a 
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -21,6 +24,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li>
+                {/* If Contact link is clicked, render Contact section */}
                 <a 
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -29,6 +33,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li>
+                {/* If Resume link is clicked, render Resume section */}
                 <a href="#resume"
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume' ? 'nav-link-active' : 'nav-link'}>

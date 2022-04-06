@@ -18,11 +18,12 @@ function Contact() {
                 setErrorMessage('email is invalid.');
             } 
             else {
-                // sen error message if input is blank
+                // send message if input is blank
                 if (!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
                 } 
                 else {
+                    // send no message if input is not blank
                     setErrorMessage('');
                 }
             }
@@ -66,6 +67,7 @@ function Contact() {
                 </div>
                 <br/>
             </form>
+            {/* render message below the form */}
             {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>

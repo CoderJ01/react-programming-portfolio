@@ -8,6 +8,7 @@ import Resume from '../pages/Resume/index.js';
 function Header() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  // render section that corresponds to clicked link
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -26,9 +27,11 @@ function Header() {
     <div>
       <header>
         <h1>Joshua</h1>
+        {/* process section change */}
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <section className="project">
+        {/* display project */}
         {renderPage()}
       </section>
     </div>

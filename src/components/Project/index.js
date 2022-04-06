@@ -6,8 +6,8 @@ function Project() {
  
   return (
     <div>
-     <Header></Header><br></br>
-     <Footer></Footer>
+     <Header></Header><br></br> {/* contains both header and dynamically rendered sections*/}
+     <Footer></Footer>          {/* contains footer*/}
     </div>
   );
 }
