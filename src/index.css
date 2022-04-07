@@ -374,3 +374,23 @@ footer {
     height: 14vh;
   } 
 }
+
+/* iPad */
+@media screen and (max-width: 768px) {
+
+  header nav ul {
+    margin-left: -4vw;
+  }
+
+  header nav ul a {
+    font-size: 3vh;
+  }
+
+  #contact {
+    margin-left: 10vw;
+  }
+
+  #resume h2 {
+    margin-left: 29vw;
+  }
+}
