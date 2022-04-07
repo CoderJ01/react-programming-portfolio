@@ -63,7 +63,7 @@ function Contact() {
                 <br/>
                 <div>
                     <label htmlFor="message">Message:</label><br/>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="10" />
+                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 <br/>
             </form>
