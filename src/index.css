@@ -455,3 +455,20 @@ footer {
     margin-left: 19vw;
   }
 }
+
+/* iPhone 12 */
+@media screen and (max-width: 390px) {
+  
+  header nav ul a {
+    font-size: 5vw;
+  }
+
+  .main-display {
+    height: 35vh;
+  }
+
+  .gitHub {
+    margin-top: 1vh;
+    height: 5vh;
+  }
+}
