@@ -1,3 +1,14 @@
+:root {
+  /* font styles */
+  --primary-font: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
+  --contact-form-font: Arial, Helvetica, sans-serif;
+  /* colors */
+  --primary: rgb(88, 62, 35);
+  --secondary: rgb(115, 104, 59);
+  --tertiary: rgb(176, 160, 132);
+  --quaternary: rgb(19, 38, 47);
+}
+
 * {
   margin: 0;
   color: rgb(255, 255, 255);
@@ -5,18 +16,13 @@
 
 body {
   margin: 0;
-  font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
-  background-color: rgb(88, 62, 35);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: var(--primary-font);
+  background-color: var(--primary);
 }
 
 header {
   color: rgb(255, 255, 255);
-  background-color: rgb(115, 104, 59);
+  background-color: var(--secondary);
 }
 
 header h1 {
@@ -38,7 +44,7 @@ header nav ul a {
 }
 
 .nav-link-active {
-  color: rgb(19, 38, 47);
+  color: var(--quaternary);
 }
 
 .project {
@@ -91,7 +97,7 @@ header nav ul a {
 
 .application a {
   font-size: 25px;
-  background-color: rgb(19, 38, 47);
+  background-color: var(--quaternary);
   position: absolute;
   text-decoration: none;
   margin-top: 5px;
@@ -99,12 +105,12 @@ header nav ul a {
 }
 
 .application a:hover {
-  color: rgb(88, 62, 35);
-  background-color: rgb(176, 160, 132);
+  color: var(--primary);
+  background-color: var(--tertiary);
 }
 
 .main-display {
-  border: 5px solid rgb(176, 160, 132);
+  border: 5px solid var(--tertiary);
   height: 375px;
   width: 398px;
 }
@@ -118,7 +124,7 @@ header nav ul a {
 }
 
 .tech {
-  background-color: rgb(176, 160, 132)
+  background-color: var(--tertiary);
 }
 
 .gitHub:hover {
@@ -158,17 +164,17 @@ header nav ul a {
 }
 
 #contact button {
-  font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L';
+  font-family: var(--primary-font);
   font-size: 20px;
-  background-color: rgb(19, 38, 47);
-  border: 1px solid  rgb(19, 38, 47);
+  background-color: var(--quaternary);
+  border: 1px solid var(--quaternary);
   padding: 10px;
   width: 125px;
 }
 
 #contact-form input, 
 #contact-form textarea {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--contact-form-font);
   font-size: 15px;
   color: rgb(0, 0, 0);
 } 
