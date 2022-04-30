@@ -5,6 +5,7 @@ import thirdAPI from '../../../assets/images/L05_Third-Party-APIs_daily-planner.
 import serverAPI from '../../../assets/images/L06_Server-Side-APIs_weather-dashboard.JPG';
 import express from '../../../assets/images/L11_Express-js_note-taker-for-business.JPG';
 import mvc from '../../../assets/images/L14_Model-Views-Controllers_tech-blog.JPG';
+import MERN from '../../../assets/images/L23_P3_MERN-SPA_Nelp.JPG';
 import githubIcon from '../../../assets/images/GitHub-Mark/PNG/GitHub-Mark-32px.png';
 
 // portfolio section, six applications, 'display: flex' in pairs
@@ -58,6 +59,15 @@ function Portfolio() {
                         <img className="main-display" src={mvc} alt="" />
                         <a href="https://github.com/CoderJ01/tech-blog-2" rel="noreferrer" target="_blank">
                             <img className="gitHub tech" src={githubIcon} alt=""/>
+                        </a>
+                    </div>
+                </div>
+                <div className="pair-wrapper">
+                    <div className="application">
+                        <a href="https://national-parks-reviews.herokuapp.com/" rel="noreferrer" target="_blank">Nelp</a>
+                        <img className="main-display" src={MERN} alt="" />
+                        <a href="https://github.com/CoderJ01/review-site?organization=CoderJ01&organization=CoderJ01" rel="noreferrer" target="_blank">
+                            <img className="gitHub" src={githubIcon} alt=""/>
                         </a>
                     </div>
                 </div>
