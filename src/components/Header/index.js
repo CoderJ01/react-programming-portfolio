@@ -31,7 +31,7 @@ function Header() {
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <section className="project">
-        {/* display project */}
+        {/* display the project div */}
         {renderPage()}
       </section>
     </div>
