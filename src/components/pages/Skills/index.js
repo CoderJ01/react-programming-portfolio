@@ -1,8 +1,7 @@
 import React from 'react';
-import resume from '../../../assets/documents/resume.jpg';
 
 // list proficiencies
-function Resume () {
+function Skills () {
     return (
         <div id="skills">
             <h2>Skills</h2><br></br>
@@ -31,4 +30,4 @@ function Resume () {
     );
 }
 
-export default Resume;
+export default Skills;
