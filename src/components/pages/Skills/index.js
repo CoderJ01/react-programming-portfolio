@@ -4,10 +4,10 @@ import resume from '../../../assets/documents/resume.jpg';
 // list proficiencies
 function Resume () {
     return (
-        <div id="resume">
-            <h2>Resume</h2>
-            {/* allow resume to be downloaded */}
-            <p>Download my<a href={resume} download>resume</a></p><br/>
+        <div id="skills">
+            <h2>Skills</h2><br></br>
+            {/* allow resume to be downloaded
+            <p>Download my<a href={resume} download>resume</a></p><br/> */}
             <h3>Front-end Proficiencies</h3>
             <ul>
                 <li>HTML</li>

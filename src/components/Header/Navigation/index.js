@@ -34,10 +34,10 @@ function Navigation({ currentPage, handlePageChange }) {
             </li>
             <li>
                 {/* If Resume link is clicked, render Resume section */}
-                <a href="#resume"
-                    onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link-active' : 'nav-link'}>
-                    Resume
+                <a href="#skills"
+                    onClick={() => handlePageChange('Skills')}
+                    className={currentPage === 'Skills' ? 'nav-link-active' : 'nav-link'}>
+                    Skills
                 </a>
             </li>
         </ul>  

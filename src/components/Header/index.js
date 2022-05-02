@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import About from '../pages/About/index.js';
 import Portfolio from '../pages/Portfolio/index.js';
 import Contact from '../pages/Contact/index.js';
-import Resume from '../pages/Resume/index.js';
+import Resume from '../pages/Skills/index.js';
 
 function Header() {
   const [currentPage, setCurrentPage] = useState('About');

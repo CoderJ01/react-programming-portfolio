@@ -178,21 +178,21 @@ header nav ul a {
   color: rgb(0, 0, 0);
 } 
 
-/* RESUME */
+/* SKILLS */
 
-#resume {
+#skills {
   width: 300px;
   margin-bottom: 35px;
 }
 
-#resume a {
+#skills a {
   margin-left: 5px;
 }
 
 #about-me, 
 #portfolio, 
 #contact, 
-#resume {
+#skills {
   margin-left: 106px;
 }
 
@@ -344,21 +344,21 @@ footer {
     margin-left: 12vw;
   }
 
-  #resume p {
+  #skills p {
     font-size: 5vw;
     width: 38vw;
   }
 
-  #resume a {
+  #skills a {
     margin-left: 1vw;
   }
 
-  #resume h3 {
+  #skills h3 {
     font-size: 7vw;
     width: 58vw;
   }
 
-  #resume ul li {
+  #skills ul li {
     font-size: 5vw;
   }
 
@@ -399,7 +399,7 @@ footer {
     margin-left: 10vw;
   }
 
-  #resume h2 {
+  #skills h2 {
     margin-left: 29vw;
   }
 }
@@ -452,11 +452,11 @@ footer {
     margin-left: 19vw;
   }
 
-  #resume {
+  #skills {
     margin-left: 18vw;
   }
 
-  #resume h2 {
+  #skills h2 {
     margin-left: 19vw;
   }
 }
