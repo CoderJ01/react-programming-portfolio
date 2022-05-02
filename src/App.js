@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Project from './components/Project';
 
 // render entire project
