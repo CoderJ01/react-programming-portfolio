@@ -48,6 +48,7 @@ header nav ul a {
 
 .project {
   margin-top: 50px;
+  min-height: 490px;
 }
 
 /* ABOUT */
