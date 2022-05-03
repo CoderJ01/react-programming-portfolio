@@ -236,37 +236,37 @@ footer {
 @media screen and (max-width: 1024px) {
 
   header h1 {
-    font-size: 12vw;
-    margin-left: 35vw;
+    font-size: 100px;
+    margin-left: 400px;
   }
 
   header nav ul {
     margin-left: 0px;
     margin-top: 0px;
     position: relative;
-    margin-left: -3vw;
+    margin-left: -15px;
   }
 
   header nav ul a {
-    font-size: 5vw;
+    font-size: 50px;
   }
 
   .project h2 {
-    font-size: 7vw;
-    margin-left: 31vw;
+    font-size: 70px;
+    margin-left: 320px;
   }
 
   #about-me img {
-    width: 30vw;
-    height: 27vw;
-    margin-left: 24vw;
-    margin-top: 3vh;
+    width: 300px;
+    height: 300px;
+    margin-left: 255px;
+    margin-top: 45px;
     border-radius: 15vw;
   }
 
   #about-me p {
-    font-size: 5vw;
-    width: 80vw;
+    font-size: 45px;
+    width: 840px;
   }
 
   #portfolio {
@@ -274,7 +274,7 @@ footer {
   }
 
   #portfolio h2 {
-    margin-left: 37vw;
+    margin-left: 400px;
   }
 
   .pair-wrapper {
@@ -282,109 +282,100 @@ footer {
   }
 
   .application {
-    margin-top: 45vw;
-    margin-left: 13vw;
+    margin-top: 300px;
+    margin-left: 130px;
   }
 
   .main-display {
-    width: 70vw;
-    height: 50vh;
+    width: 725px;
+    height: 600px;
     border-width: 15px;
   }
 
   .content {
-    margin-top: -28vh;
+    margin-top: -220px;
   }
 
   .application a {
-    font-size: 6vw;
+    font-size: 60px;
     margin-left: 2%;
     margin-top: 2%;
   }
 
   .gitHub {
-    width: 10vw;
-    height: 8vh;
-    margin-left: 59vw;
-    margin-top: -53vh;
+    width: 80px;
+    height: 80px;
+    margin-left: 630px;
+    margin-top: -635px;
   }
 
   #contact h2 {
-    width: 30vw;
-    margin-left: 25vw;
+    width: 300px;
+    margin-left: 260px;
   }
 
   #contact-form {
-    margin-top: 2vh;
-    margin-left: 12vw;
+    margin-top: 20px;
+    margin-left: 120px;
   }
 
   #contact-form label {
-    font-size: 5vw;
+    font-size: 50px;
   }
 
   #contact-form input {
-    padding: 2vw;
-    width: 52vw;
-    font-size: 5vw;
+    padding: 10px;
+    width: 550px;
+    font-size: 50px;
   }
 
   #contact-form textarea {
-    width: 56vw;
-    font-size: 5vw;
+    width: 570px;
+    font-size: 50px;
   }
 
   #contact p {
-    font-size: 5vw;
-    margin-left: 12vw;
+    font-size: 50px;
+    margin-left: 120px;
   }
 
   #contact button {
-    font-size: 5vw;
-    width: 20vw;
-    margin-left: 12vw;
-  }
-
-  #skills p {
-    font-size: 5vw;
-    width: 38vw;
-  }
-
-  #skills a {
-    margin-left: 1vw;
+    font-size: 40px;
+    width: 180px;
+    margin-left: 120px;
   }
 
   #skills h3 {
-    font-size: 7vw;
-    width: 58vw;
+    font-size: 60px;
+    width: 500px;
   }
 
   #skills ul li {
-    font-size: 5vw;
+    font-size: 40px;
   }
 
   .git {
-    width: 20vw;
-    height: 15vh;
+    width: 120px;
+    height: 120px;
     margin-right: 10px;
   }
   
   .linked {
-    width: 20vw;
+    width: 120px;
     height: 15vh;
   }
   
   .facebook {
     margin-left: 10px;
-    width: 18vw;
-    height: 14vh;
+    width: 120px;
+    height: 110px;
   } 
 }
 
 /* iPad */
 @media screen and (max-width: 768px) {
 
-  header nav ul {
+  /* header nav ul {
     margin-left: -4vw;
   }
 
@@ -402,13 +393,13 @@ footer {
 
   #skills h2 {
     margin-left: 29vw;
-  }
+  } */
 }
 
 /* iPhone 6/7/8 Plus*/
 @media screen and (max-width: 414px) {
 
-  header nav ul {
+  /* header nav ul {
     margin-left: -6vw;
   }
 
@@ -427,8 +418,8 @@ footer {
 
   .content {
     margin-top: 5vh;
-  }
-
+  } */
+/* 
   .application {
     margin-left: 11vw;
     margin-top: 0vh;
@@ -451,21 +442,21 @@ footer {
   #contact h2 {
     width: 43vw;
     margin-left: 19vw;
-  }
+  } */
 
-  #skills {
+  /* #skills {
     margin-left: 18vw;
   }
 
   #skills h2 {
     margin-left: 19vw;
-  }
+  } */
 }
 
 /* iPhone 12 */
 @media screen and (max-width: 390px) {
   
-  header nav ul a {
+  /* header nav ul a {
     font-size: 5vw;
   }
 
@@ -476,5 +467,5 @@ footer {
   .gitHub {
     margin-top: 1vh;
     height: 5vh;
-  }
+  } */
 }
