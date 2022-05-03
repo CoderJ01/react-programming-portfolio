@@ -2,6 +2,7 @@ import React from "react";
 import githubIcon from '../../assets/images/GitHub-Mark/PNG/GitHub-Mark-32px.png';
 import linkedIcon from '../../assets/images/LinkedIn-Logos/logo.png';
 import facebookIcon from '../../assets/images/Facebook/facebook.png';
+import './style.css';
 
 // place icons on the bottom of the screen
 function Footer () {

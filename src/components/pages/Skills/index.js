@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 // list proficiencies
 function Skills () {

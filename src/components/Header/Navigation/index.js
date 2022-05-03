@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 // set up navigation in header
 function Navigation({ currentPage, handlePageChange }) {

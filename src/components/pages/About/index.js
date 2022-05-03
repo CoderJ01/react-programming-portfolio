@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from '../../../assets/images/avatar.png';
+import './style.css';
 
 // description about myself
 function About() {

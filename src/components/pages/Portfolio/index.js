@@ -7,6 +7,7 @@ import express from '../../../assets/images/L11_Express-js_note-taker-for-busine
 import mvc from '../../../assets/images/L14_Model-Views-Controllers_tech-blog.JPG';
 import MERN from '../../../assets/images/L23_P3_MERN-SPA_Nelp.JPG';
 import githubIcon from '../../../assets/images/GitHub-Mark/PNG/GitHub-Mark-32px.png';
+import './style.css';
 
 // portfolio section, six applications, 'display: flex' in pairs
 function Portfolio() {
