@@ -254,6 +254,11 @@ footer {
   .project h2 {
     font-size: 70px;
     margin-left: 320px;
+    width: 250px;
+  }
+
+  #about-me {
+    width: 850px;
   }
 
   #about-me img {
@@ -271,6 +276,7 @@ footer {
 
   #portfolio {
     margin-left: 1vw;
+    min-height: 5000px;
   }
 
   #portfolio h2 {
@@ -375,24 +381,63 @@ footer {
 /* iPad */
 @media screen and (max-width: 768px) {
 
+  header h1 {
+    margin-left: 265px;
+  }
+
   header nav ul {
-    /* margin-left: -4vw; */
+    margin-left: -67px;
   }
 
   header nav ul a {
-    /* font-size: 3vh; */
+    font-size: 38px;
   }
 
   #about-me {
-    /* margin-left: 12vw; */
+    margin-left: -25px;
+    width: 750px;
+  }
+
+  #about-me p {
+    width: 600px;
+    margin-left: 115px;
+  }
+
+  #portfolio {
+    margin-left: -90px;
+    width: 700px;
+    min-height: 4950px;
+  }
+
+  #portfolio h2 {
+    margin-left: 357px;
+  }
+
+  .main-display {
+    width: 653px;
+    height: 540px;
+    border-width: 15px;
+  }
+
+  .gitHub {
+    margin-left: 569px;
+    margin-top: -573px;
+  }
+
+  .linked {
+    height: 120px;
+  }
+
+  .facebook {
+    width: 110px;
   }
 
   #contact {
-    /* margin-left: 10vw; */
+    margin-left: -25px;
   }
 
   #skills h2 {
-    /* margin-left: 29vw; */
+    margin-left: 200px;
   }
 }
 
