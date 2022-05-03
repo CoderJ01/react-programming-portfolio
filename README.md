@@ -13,7 +13,7 @@ This site showcases six of my projects, including my first portfolio. However, u
     * npx create-react-app photo-port
 
 ## Website Link
-https://programming-portfolio-react.herokuapp.com/
+https://react-portfolio-of-code.herokuapp.com/
 
 ## Contribution
 CoderJ01 
