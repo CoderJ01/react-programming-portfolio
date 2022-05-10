@@ -597,3 +597,68 @@ footer {
     height: 85px;
   }
 }
+
+/* iPhone SE */
+@media screen and (max-width: 375px) {
+
+  header h1 {
+    margin-left: 60px;
+  }
+
+  header nav ul {
+    margin-left: -105px;
+  }
+
+  #about-me h2 {
+    margin-left: 255px;
+  }
+
+  #about-me img {
+    margin-left: 185px;
+  }
+
+  #about-me p {
+    width: 300px;
+  }
+
+  #portfolio {
+    width: 450px;
+  }
+
+  #portfolio h2 {
+    margin-left: 165px;
+  }
+
+  .content {
+    width: 460px;
+  }
+
+  .application {
+    margin-left: 105px;
+  }
+
+  #contact {
+    width: 460px;
+  }
+
+  #contact h2 {
+    margin-left: 135px;
+  }
+
+  #contact-form input {
+    width: 320px;
+  }
+
+  #contact-form textarea {
+    width: 325px;
+  }
+
+  #skills h2 {
+    margin-left: 75px;
+    width: 145px;
+  }
+
+  #skills h3 {
+    width: 300px;
+  }
+}
