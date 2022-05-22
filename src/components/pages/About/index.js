@@ -14,7 +14,7 @@ function About() {
                 have used three types of APIs (Application Program Interfaces) - web storage, third-party, and server-side. 
                 For the back-end, I learned the fundamentals of Node.js, Object-Oriented programming, Express.js, SQL, 
                 Object-Relational Mapping (ORM), and Model-View-Controllers (MVC). To navigate to the webpages of 
-                my websites, click on the images under "Portfolio".
+                my websites, click on the links located on the images in the "Portfolio" section.
             </p>
         </div>
     );
