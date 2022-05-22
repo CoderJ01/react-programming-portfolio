@@ -598,6 +598,48 @@ footer {
   }
 }
 
+/* iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+  
+  #portfolio {
+    
+    width: 450px;
+  }
+
+  .content {
+    width: 460px;
+  }
+
+  .application {
+    margin-left: 112px;
+  }
+
+  #contact {
+    width: 440px;
+  }
+
+  #contact h2 {
+    margin-left: 140px;
+  }
+
+  #contact-form input {
+    width: 330px;
+  }
+
+  #contact-form textarea {
+    width: 350px;
+  }
+
+  #skills h2 {
+    width: 150px;
+    margin-left: 85px;
+  }
+
+  #skills h3 {
+    width: 310px;
+  }
+}
+
 /* iPhone SE */
 @media screen and (max-width: 375px) {
 
