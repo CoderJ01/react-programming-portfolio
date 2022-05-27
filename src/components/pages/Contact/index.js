@@ -78,27 +78,21 @@ function Contact() {
             <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name" defaultValue={formState.name}>Name:</label><br/>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <label htmlFor="name" >Name:</label><br/>
+                    <input type="text" name="name" required />
                 </div>
                 <br/>
                 <div>
                     <label htmlFor="email">Email address:</label><br/>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+                    <input type="email" name="email" required />
                 </div>
                 <br/>
                 <div>
                     <label htmlFor="message">Message:</label><br/>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    <textarea name="message" rows="5" required />
                 </div>
                 <br/>
             </form>
-            {/* render message below the form */}
-            {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-            )}  
             <br/>
             <button type="submit">{status}</button><br/>
         </div>
