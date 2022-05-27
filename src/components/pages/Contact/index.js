@@ -3,48 +3,74 @@ import { validateEmail } from '../../../utils/helpers';
 
 function Contact() {
 
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
+    // const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    // const { name, email, message } = formState;
+    // const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
+    // function handleChange(e) {
         
-        if (e.target.name === 'email') {
-            // check if email is valid
-            const isValid = validateEmail(e.target.value);
-            console.log(isValid);
-            // isValid conditional statement
-            if (!isValid) {
-                setErrorMessage('email is invalid.');
-            } 
-            else {
-                // send message if input is blank
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
-                } 
-                else {
-                    // send no message if input is not blank
-                    setErrorMessage('');
-                }
-            }
-        }
-        else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`);
-            }
-            else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            // update user input
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-    }
+    //     if (e.target.name === 'email') {
+    //         // check if email is valid
+    //         const isValid = validateEmail(e.target.value);
+    //         console.log(isValid);
+    //         // isValid conditional statement
+    //         if (!isValid) {
+    //             setErrorMessage('email is invalid.');
+    //         } 
+    //         else {
+    //             // send message if input is blank
+    //             if (!e.target.value.length) {
+    //                 setErrorMessage(`${e.target.name} is required.`);
+    //             } 
+    //             else {
+    //                 // send no message if input is not blank
+    //                 setErrorMessage('');
+    //             }
+    //         }
+    //     }
+    //     else {
+    //         if (!e.target.value.length) {
+    //             setErrorMessage(`${e.target.name} is required`);
+    //         }
+    //         else {
+    //             setErrorMessage('');
+    //         }
+    //     }
+    //     if (!errorMessage) {
+    //         // update user input
+    //         setFormState({ ...formState, [e.target.name]: e.target.value });
+    //     }
+    // }
 
-    function handleSubmit(e) {
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     console.log(formState);
+    // }
+
+    const [status, setStatus] = useState("Submit");
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formState);
+        
+        setStatus("Semding...");
+        const {name, email, message } = e.target.elements;
+        
+        let details = {
+            name: name.value,
+            email: email.value,
+            message: message.value
+        }
+
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(details),
+        });
+
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
     }
 
     return (
@@ -74,7 +100,7 @@ function Contact() {
                     </div>
             )}  
             <br/>
-            <button type="submit">Submit</button><br/>
+            <button type="submit">{status}</button><br/>
         </div>
     );
   }
